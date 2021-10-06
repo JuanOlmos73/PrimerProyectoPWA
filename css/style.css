@@ -1,0 +1,206 @@
+:root {
+  --main-color: #aabbcc;
+  --main-modal-color: rgba(240, 219, 79, 0.5);
+  --second-color: #2b2b2b;
+  --second-modal-color: rgba(43, 43, 43, 0.5);
+  --first_color: rgba(219, 105, 39, 0.685);
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+  color: var(--second-color);
+  background-color: var(--main-modal-color);
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+/*Navegacion*/
+.contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row-reverse;
+  height: auto;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.logo__img {
+  height: 12rem;
+}
+.texto__logo spam {
+  font-size: 6rem;
+}
+.texto__logo {
+  font-size: 4rem;
+  margin: 2rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 12rem;
+}
+.menu__link {
+  text-decoration: none;
+  background-color: var(--first_color);
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.menu__link:hover {
+  background-color: rgb(78, 75, 73);
+  color: var(--first_color);
+  transition: 0.5s;
+}
+.menu__link--select {
+  text-decoration: none;
+  background-color: #ffff;
+  color: var(--first_color);
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+/*header*/
+.header {
+  background-image: url(../img/Pizza1.jpg);
+  height: 65rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__contenedor {
+  background: rgba(205, 237, 73, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 55rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 20rem;
+}
+.header__texto {
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.header__btn a {
+  text-decoration: none;
+  background-color: var(--first_color);
+  padding: 2rem;
+  color: rgb(26, 26, 26);
+  font-weight: bolder;
+  border-radius: 2rem;
+}
+.header__btn a:hover {
+  background-color: #ffff;
+  color: var(--first_color);
+}
+
+.footer {
+  width: 100%;
+  background-image: url(../img/269.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 23rem;
+  display: flex;
+}
+
+.contenedor__footer {
+  color: #ffff;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgba(17, 17, 16, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/*seccion main*/
+
+
+.titulo_seccion{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.contenedor_Pizza{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/*
+a {
+    font-weight: bold;
+    color: var(--second-color);
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: var(--second-modal-color);
+}
+
+p {
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+.Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Header h1 {
+    word-wrap: break-word;
+}
+
+.Header img {
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.Header nav {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+}
+*/
